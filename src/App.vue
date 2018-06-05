@@ -103,6 +103,7 @@
                         this.$refs.phone.reset()
                         this.name = null
                         this.$refs.name.reset()
+                        this.state = 'FILL'
 
                         let id = response.data.match(/=(.*)$/)[1]
                         VueNotifications.success({
