@@ -1,0 +1,30 @@
+.text-field {
+    position: relative;
+    margin-bottom: rem(16px);
+
+    &__label {
+        display: block;
+        margin-bottom: rem(5px);
+        @include font-size(14px);
+    }
+
+    &__input {
+        border: none;
+        border-radius: 3px;
+        background: #ffffff;
+        padding: 0 rem(10px);
+        height: rem(30px);
+        width: 100%;
+        @include font-size(15px);
+    }
+
+    &__message {
+        @include font-size(12px);
+        display: block;
+        margin-top: rem(3px);
+
+        &.error {
+            color: red;
+        }
+    }
+}

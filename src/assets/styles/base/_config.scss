@@ -1,0 +1,28 @@
+// Main colors
+$color-base: #3B4256;
+$color-accent: #146FCC;
+$color-accent-active: #1a8cff;;
+
+// Font configs
+$font-size-base: 16px;
+$font-line-height-base: 1.375; // 22px
+
+// Font families
+$font-family-base: "Open Sans", sans-serif;
+$font-family-brand: "Meta LF Roman", sans-serif;
+
+// Font weights
+$font-weight-light: 200;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+
+// Base transition time
+$transition-time: .2s;
+
+// Screens resolutions
+$screen-sm-min: 768px;
+$screen-sm-max: 767px;
+$screen-md-min: 992px;
+$screen-md-max: 991px;
+$screen-lg-min: 1240px;
+$screen-lg-max: 1239px;
